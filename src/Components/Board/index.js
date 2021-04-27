@@ -171,7 +171,7 @@ function Board() {
     const n = grid.length;
     for (let i = 0; i < n; i++) {
       for (let j = 0; j < n; j++) {
-        if (grid[i][j] >= 28) {
+        if (grid[i][j] >= 2048) {
           return true;
         }
       }
